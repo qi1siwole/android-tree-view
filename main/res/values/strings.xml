@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">qi1siwole树形列表</string>
+
+    <!-- use on listView [begin] -->
+    <string name="tab_text">&#160;+--</string>
+    <string name="flag_no_child">&#160;#&#160;&#160;</string>
+    <string name="flag_fold">[+]&#160;</string>
+    <string name="flag_unfold">[-]&#160;</string>
+
+    <string name="delete">[del]</string>
+    <string name="edit">[edit]</string>
+    <string name="add">[add]</string>
+    <string name="drag">[drag]</string>
+    <string name="refresh">[refresh]</string>
+    <string name="save">[save]</string>
+    <string name="open">[open]</string>
+    <string name="create_new">[new]</string>
+
+    <string name="sort">[sort]</string>
+    <string name="filter">[filter]</string>
+    <string name="fold_all">[fold]</string>
+    <string name="unfold_all">[unfold]</string>
+    <!--<string name="move_up">[up]</string>-->
+    <!--<string name="move_down">[down]</string>-->
+    <!-- use on listView [end] -->
+
+    <!-- alert dialog [begin] -->
+    <string name="dialog_title">提示</string>
+    <string name="dialog_positive">确定</string>
+    <string name="dialog_negative">取消</string>
+
+    <string name="delete_node_dialog_message">确定删除结点吗？</string>
+    <string name="delete_node_dialog_positive">删除分支</string>
+    <string name="delete_node_dialog_neutral">删除单个</string>
+
+    <string name="rename_dialog_title">改名</string>
+    <string name="ori_node_name">原结点名：</string>
+    <string name="new_node_name">新结点名：</string>
+
+    <string name="add_dialog_title">添加</string>
+    <string name="parent_node_name">父结点名称：</string>
+    <string name="child_node_name">新子结点名：</string>
+    <string name="add_dialog_positive">添加</string>
+    <string name="add_continue_dialog_positive">继续添加</string>
+    <string name="add_complete_dialog_negative">完成</string>
+
+    <string name="select_tree_name_dialog_title">请选择要查看的树的名称</string>
+    <!-- alert dialog [end] -->
+
+    <!-- toast [begin] -->
+    <string name="rename_toast_invalid_text">输入不合法</string>
+    <string name="rename_toast_same_text">不能与原名相同</string>
+    <string name="toast_name_exists">名称已存在，请改用其它名称</string>
+    <string name="toast_no_tree_data">没有可查看的树列表</string>
+    <string name="toast_tip_new_tree">打开新的列表</string>
+    <string name="toast_tip_save_tree">当前列表已保存</string>
+    <!-- toast [end] -->
+</resources>
